@@ -1,0 +1,130 @@
+body {
+    background-color: #C4A4D7;
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.navbar {
+    background-color: #1E1E21;
+    width: 100%;
+    text-align: center;
+
+}
+
+.navbar ul {
+    margin-top: 0%;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 10px 25px;
+    
+}
+
+.navlink {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.navlink:hover {
+    background-color:red ;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+img.mypic{
+    max-width: 20%;
+    max-height: 300px;
+    float: left;
+    position: relative;
+    left:20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    
+}
+
+
+div.view {
+    display: inline-block;
+
+}
+.view span {
+    font-weight: bold;
+}
+
+div.view p {
+    width: 1400px;
+    font-weight: 100;
+    font-size: 1.25rem;
+    line-height: 2;
+   position: relative;
+   left:50px;
+   bottom:20px;
+    
+}
+
+.view {
+    border-bottom: 2px solid #52637C;
+}
+
+table.study {
+    border-color:black;
+    width: 40%;
+    line-height: 2;
+}
+
+td {
+    text-align: center;
+}
+
+section#education {
+    padding-bottom: 40px;
+    border-bottom: 2px solid #52637C;
+}
+
+#font {
+    font-size: 150px;
+}
+#skill {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+section#skills {
+    padding-bottom: 40px;
+    border-bottom: 2px solid #52637C;
+    
+}
+.hobbie {
+    display: flex;
+    justify-content: space-evenly;
+}
+section#hobbies {
+    padding-bottom: 40px;
+    border-bottom: 2px solid #52637C;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+.details span {
+    color: #1D22BC;
+}
+
+section#contact {
+    padding-bottom: 40px;
+    border-bottom: 2px solid #52637C;
+}
+
+footer {
+    background-color:#6F8E38;
+}
+
+@media (min-width:sma)
