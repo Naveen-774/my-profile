@@ -132,3 +132,12 @@ footer {
         width:95%;
     }
 }
+
+@media (max-width : 600px) {
+    #font {
+        font-size:100px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+}
