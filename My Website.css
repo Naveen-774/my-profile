@@ -59,7 +59,7 @@ div.view {
 }
 
 div.view p {
-    width: 1400px;
+    width: 82%;
     font-weight: 100;
     font-size: 1.25rem;
     line-height: 2;
@@ -127,4 +127,8 @@ footer {
     background-color:#6F8E38;
 }
 
-@media (min-width:sma)
+@media (min-width : 800px) {
+    #para {
+        width:95%;
+    }
+}
